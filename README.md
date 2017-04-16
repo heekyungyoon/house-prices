@@ -1,41 +1,40 @@
 # House Price Prediction
-
-캐글 데이터를 이용한 주택 매매 가격 예측 
-캐글 링크:
+![](mix4_ranking.png?raw=true)
+캐글 데이터를 이용한 주택 매매 가격 예측
+캐글 링크:[house-prices-advanced-regression-techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
 # EXPLORE
-- explore.ipynb
+관련 코드: explore_data.ipynb
 - handling missing values
 - handling categorical values with order
-- analyzing correlation between target and features 
+- analyzing correlation between target and features
 - analyzing correlation between features
-    - pearson coef between numeric features
-    - pairgrid between top 10 pairs' unique features
 - handling outliers
-- other patterns 
+- other patterns
 
-# PREPROCESS 
-- preprocess.py
-- PREPROCESS CODE 정리
-- missing values
-- outliers
-- scale
-- transforming categorical values
+# PREPROCESS
+관련 코드: preprocess.ipynb
+- Special Treatments
+  - delete constant feature: Utility
+  - handling categorical features with order
+  - binning MSSubClass, Neighbor
+- Missing Values
+- Outliers
+- Handling Categorical Values (Get Dummies)
+- Scale
 
 # MODELING
-- modeling_parametric.ipynb
-- modeling_nonparametric.ipynb
-- final_model.py
+관련코드:
+  - modeling_para.ipynb
+  - modeling_nonpara_ensemble.ipynb
 
-- Parametric models & Feature Selection
-    - linear regression 
+- Parametric models
+    - linear regression
     - linear regression w/ feature selection
     - linear regression w/ interaction
     - linear regression w/ Ridge, Lasso
 - Non parametric models
-    - Gradient boosting regressor
-    - Xgboost 
-- Ensemble
-    - Ridge, Lasso, GBregressor or Xgboost
-        - find the opitmum weight mix
-
+    - Gradient boosting regressor (Sci-kit)
+    - Xgboost
+- Ensemble(final model)
+    - Ridge, Lasso, GBregressor and Xgboost
