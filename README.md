@@ -3,9 +3,6 @@
 캐글 데이터를 이용한 주택 매매 가격 예측
 캐글 링크:[house-prices-advanced-regression-techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
-최종 랭킹 1089위 (RSMLE=0.13011):
-![](mix4_ranking.png?raw=true)
-
 이 프로젝트의 목적은 주택의 골목 여부, 주택 마감재 종류, 주택 매매시점과 같은 주택 속성에 관련된 데이터를 이용하여 2006-2010 동안 매매가 이루어진 미국 Iowa의 Ames지역 주택 매매 가격을 예측하는 것이다.
 데이터는 총 79개의 feature와 1개의 target value, 즉 매매가격으로 이루어져 있다. 79개의 데이터에는 주택을 구성하는 각종 요소, 면적, 마감재, 주택이 지어지거나 리모델링된 시점, 매매시점 등에 대한 다양한 정보가 있다.
 
